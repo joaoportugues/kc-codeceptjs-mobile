@@ -18,20 +18,19 @@ exports.config = {
 
 //Browswer stack
      Appium: {
-		platform: 'Android',
-		"app" : properties.browserStack.app,
-		    host: "hub-cloud.browserstack.com",
-			user: properties.browserStack.user,
-    		key: properties.browserStack.key,
-    		port: 4444,
+		platformName: 'Android',
+		"app" : properties.sauceLabs.app,
+		    host: "ondemand.saucelabs.com",
+			user: properties.sauceLabs.user,
+    		key: properties.sauceLabs.key,
+    		port: 80,
     	capabilities : {
-	  'build' : 'Node Android',
-			"os_version" : "9.0",
-			"device" : "Google Pixel 3",
-			"app" : properties.browserStack.app,
+			"platformVersion" : "8.1",
+			"deviceName" : "Samsung Galaxy S9 Plus FHD GoogleAPI Emulator",
+			"app" : properties.sauceLabs.app,
 			"project" : "Login From",
 			"name" : "Login Test",
-			"browserstack.appium_version" : "1.17.0",
+			"appiumVersion" : "1.9.1",
 			"automationName" : "Appium",
 
 		} 
