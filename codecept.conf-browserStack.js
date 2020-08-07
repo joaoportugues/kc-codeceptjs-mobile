@@ -1,3 +1,5 @@
+const properties = require('./resources/properties.json')
+
 exports.config = {
   output: './output',
   helpers: {
@@ -17,16 +19,16 @@ exports.config = {
 //Browswer stack
      Appium: {
 		platform: 'Android',
-		"app" : "bs://ce17a915a44a955c249f174ff693a24f95212b09",
+		"app" : properties.browserStack.app,
 		    host: "hub-cloud.browserstack.com",
-			user: "justintime4",
-    		key: "spyTBMY46biK1xF1q3zb",
+			user: properties.browserStack.user,
+    		key: properties.browserStack.key,
     port: 4444,
     	capabilities : {
 	  'build' : 'Node Android',
 			"os_version" : "9.0",
 			"device" : "Google Pixel 3",
-			"app" : "bs://ce17a915a44a955c249f174ff693a24f95212b09",
+			"app" : properties.browserStack.app,
 			"project" : "Login From",
 			"name" : "Login Test",
 			"browserstack.appium_version" : "1.17.0",
