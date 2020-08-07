@@ -7,3 +7,9 @@ Feature: Multiple login platforms
     Given I see "Login"
     Then I press "Login"
     And I see "E-Mail"
+    
+    
+  Scenario: Simple login test fail
+    Given I see "Login"
+    Then I press "Login"
+    And I see "E-Mail1"

@@ -19,13 +19,14 @@ exports.config = {
 //Browswer stack
      Appium: {
 		platform: 'Android',
-		"app" : properties.browserStack.app,
-		    host: "hub-cloud.browserstack.com",
-			user: properties.browserStack.user,
-    		key: properties.browserStack.key,
-    		port: 4444,
+		app : properties.browserStack.app,
+		host: "hub-cloud.browserstack.com",
+		user: properties.browserStack.user,
+    	key: properties.browserStack.key,
+    	port: 4444,
     	capabilities : {
-	  'build' : 'Node Android',
+			realMobile : true,
+	  		'build' : 'Node Android',
 			"os_version" : "9.0",
 			"device" : "Google Pixel 3",
 			"app" : properties.browserStack.app,
@@ -33,7 +34,6 @@ exports.config = {
 			"name" : "Login Test",
 			"browserstack.appium_version" : "1.17.0",
 			"automationName" : "Appium",
-
 		} 
 	}
   },

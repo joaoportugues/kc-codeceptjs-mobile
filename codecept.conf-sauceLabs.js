@@ -4,18 +4,6 @@ exports.config = {
   output: './output',
   helpers: {
 
-//iOS
-    /*Appium: {
-	  app: 'de.kid-coins.development',
-      platform: 'iOS',
-      desiredCapabilities: {
-        platformName: 'iOS',
-        deviceName: 'iPhone SE (2nd generation)',
-        platformVersion: '13.5',
-        automationName: 'XCUITest'
-      }	
-    },*/
-
 //Browswer stack
      Appium: {
 		platformName: 'Android',
