@@ -5,7 +5,11 @@ Feature: Settings on landing page
   
   Background: open app correctly
 	Given I press "settings"
-
+ 
+  @browserStack
+  Scenario: Settins Menu opens correctly and options are available
+    Then I see "Einstellungen"
+ 
   Scenario: Settins Menu opens correctly and options are available
     Then I see "Einstellungen"
     Then I see "Themenauswahl"

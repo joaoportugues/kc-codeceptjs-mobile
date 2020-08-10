@@ -6,6 +6,7 @@ Make sure to have the simulators required to run tests installed.
 Built on Mac as iOS require Xcode to run.
 
 
+
 Mac version:
 sw_vers -productVersion
 10.15.6
@@ -20,6 +21,10 @@ java -version
 java version "1.8.0_251"
 Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
 Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
+
+If you run on cloud devices, like BrowserStack, skip to installation
+
+To run locally, resolve all the framework dependencies.
 ```
 
 Framework specific
@@ -86,6 +91,22 @@ Reports
 npm install -g allure-commandline --save
 ```
 
+Create resources/properties.json with browser stack configs
+```sh
+Create your BrowserStack account and upload .apk file and .ipa. 
+
+Get your user, key and path to app.
+
+{
+"browserStack":
+	{
+		"user" : "--",
+		"key" : "--",
+		"app" : "bs://--"
+	},
+}
+```
+
 ## Usage example
 
 To run:
@@ -99,7 +120,7 @@ npx codeceptjs run --debug
 ```
 Use different configs with -c (supports browserStack)
 ```sh
-npx codeceptjs run -c codecept.config-firefox.js
+npx codeceptjs run -c codecept.config-browserStack.js
 ```
 
 and to get the testing reports

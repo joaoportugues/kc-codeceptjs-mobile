@@ -11,7 +11,7 @@ module.exports = {
 				I.tap({android: landing.elementsAndroid.logo , ios: landing.elementsiOS.logo})
 				break
 			default:
-    			I.waitForElement({android: text, ios: '~' +text}, 10);
+    			I.waitForElement({android: text, ios: '~' +text}, 20);
 				break
 		}
     },

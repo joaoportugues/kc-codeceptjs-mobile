@@ -14,6 +14,8 @@ Feature: Landing page
     Then I see "Mit dem Handy anmelden"
     Then I see "Registrieren"
     Then I see "Login"
+  
+
     
     
 

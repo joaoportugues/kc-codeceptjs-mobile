@@ -1,0 +1,14 @@
+{
+"browserStack":
+	{
+		"user" : "justintime4",
+		"key" : "spyTBMY46biK1xF1q3zb",
+		"app" : "bs://ce17a915a44a955c249f174ff693a24f95212b09"
+	},
+"sauceLabs":
+	{
+		"user" : "jtime",
+		"key" : "aa1c1797-8a8e-4824-a432-433c6947f95c",
+		"app" : "7c85bf82-5762-4f7c-abad-ece7bcb45d07"
+	}
+}
