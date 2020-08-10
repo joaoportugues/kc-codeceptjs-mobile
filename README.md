@@ -46,14 +46,14 @@ info AppiumDoctor  ✔ Xcode Command Line Tools are installed in: /Applications/
 info AppiumDoctor  ✔ DevToolsSecurity is enabled.
 info AppiumDoctor  ✔ The Authorization DB is set up properly.
 info AppiumDoctor  ✔ Carthage was found at: /usr/local/bin/carthage. Installed version is: 0.35.0
-info AppiumDoctor  ✔ HOME is set to: /Users/ragnarok
-info AppiumDoctor  ✔ ANDROID_HOME is set to: /Users/ragnarok/Library/Android/sdk/
+info AppiumDoctor  ✔ HOME is set to: /Users/player1
+info AppiumDoctor  ✔ ANDROID_HOME is set to: /Users/player1/Library/Android/sdk/
 info AppiumDoctor  ✔ JAVA_HOME is set to: /Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home
 info AppiumDoctor    Checking adb, android, emulator
-info AppiumDoctor      'adb' is in /Users/ragnarok/Library/Android/sdk/platform-tools/adb
-info AppiumDoctor      'android' is in /Users/ragnarok/Library/Android/sdk/tools/android
-info AppiumDoctor      'emulator' is in /Users/ragnarok/Library/Android/sdk/emulator/emulator
-info AppiumDoctor  ✔ adb, android, emulator exist: /Users/ragnarok/Library/Android/sdk/
+info AppiumDoctor      'adb' is in /Users/player1/Library/Android/sdk/platform-tools/adb
+info AppiumDoctor      'android' is in /Users/player1/Library/Android/sdk/tools/android
+info AppiumDoctor      'emulator' is in /Users/player1/Library/Android/sdk/emulator/emulator
+info AppiumDoctor  ✔ adb, android, emulator exist: /Users/player1/Library/Android/sdk/
 
 ```
 
