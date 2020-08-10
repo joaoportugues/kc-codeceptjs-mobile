@@ -1,3 +1,17 @@
+const fs = require('fs')
+const path = require('path')
+const directory = 'reports'
+
+var today = new Date();  
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
+reportsDirectory = './'+ directory + '/ios-iPhoneSE (2nd generation)' + date
+
+if (!fs.existsSync(reportsDirectory)) {
+    fs.mkdirSync(reportsDirectory);
+}
+
 exports.config = {
   output: './output',
   helpers: {
@@ -44,7 +58,11 @@ exports.config = {
     },
     retryFailedStep: {
       enabled: true
-    }
+    },
+	allure: {
+      enabled: true,
+      outputDir: reportsDirectory
+    },
   },
   tests: './*_test.js',
   name: 'codeceptjs-ios'

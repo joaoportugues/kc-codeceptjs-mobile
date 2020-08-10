@@ -1,8 +1,8 @@
 const { I } = inject();
-const landingPage = require('../pages/landingPage');
+const main = require('../pages/main');
 
 // Add in your custom step files
 
-Given('I see {string}', (text) => {landingPage.seeText(text)});
+Given('I see {string}', (text) => {main.seeText(text)});
 
-Then('I press {string}', (name) => {landingPage.clickOption(name)});
+Then('I press {string}', (name) => {main.clickOption(name)});
