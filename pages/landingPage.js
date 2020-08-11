@@ -13,7 +13,9 @@ module.exports = {
 		signInGoogle:'~Mit Google anmelden',
 		signInPhone: '~Mit dem Handy anmelden',
 		registerEmail: '~Registrieren',
-		loginEmail: '~Login'
+		loginEmail: '~Login',
+		googleEmailField: '~E-Mail oder Telefonnummer',
+		allowApp: '~This allows the app and website to share information about you.'
 	},
 	
 	elementsAndroid: {
@@ -27,7 +29,10 @@ module.exports = {
 		signInGoogle:'Mit Google anmelden',
 		signInPhone: 'Mit dem Handy anmelden',
 		registerEmail: 'Registrieren',
-		loginEmail: 'Login'
+		loginEmail: 'Login',
+		googleEmailField: 'Forgot email?',
+		allowApp:'Sign in',
+
 	},
 
 	seeText(text) {

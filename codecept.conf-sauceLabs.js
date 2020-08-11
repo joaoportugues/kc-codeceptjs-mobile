@@ -8,17 +8,18 @@ exports.config = {
      Appium: {
 		platformName: 'Android',
 		"app" : properties.sauceLabs.app,
-		    host: "ondemand.saucelabs.com",
-			user: properties.sauceLabs.user,
-    		key: properties.sauceLabs.key,
-    		port: 80,
-    	capabilities : {
+		 host: properties.sauceLabs.user + ':' + properties.sauceLabs.key + '@ondemand.eu-central-1.saucelabs.com',
+     	 path: '/wd/hub',
+		 port: 80,
+		 user: properties.sauceLabs.user, // credentials
+         key: properties.sauceLabs.key, // credentials
+    	 capabilities : {
+			platformName: 'Android',
 			"platformVersion" : "8.1",
-			"deviceName" : "Samsung Galaxy S9 Plus FHD GoogleAPI Emulator",
-			"app" : properties.sauceLabs.app,
+			"deviceName" : "Samsung Galaxy S8 Plus WQHD GoogleAPI Emulator",
 			"project" : "Login From",
 			"name" : "Login Test",
-			"appiumVersion" : "1.9.1",
+			"appiumVersion" : "1.17.1",
 			"automationName" : "Appium",
 
 		} 

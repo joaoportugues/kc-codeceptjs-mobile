@@ -4,12 +4,9 @@ Feature: Settings on landing page
   I want to change themes and languages
   
   Background: open app correctly
-	Given I press "settings"
- 
-  @browserStack
-  Scenario: Settins Menu opens correctly and options are available
-    Then I see "Einstellungen"
- 
+	Given I press "options"
+  
+  @runThis
   Scenario: Settins Menu opens correctly and options are available
     Then I see "Einstellungen"
     Then I see "Themenauswahl"
@@ -21,7 +18,7 @@ Feature: Settings on landing page
     And I press "Rosa"
     Then I see "Rosa"
     And I press "Hinzufügen"
-    And I press "settings"
+    And I press "options"
     Then I see "Rosa"
     
   Scenario: Change color to green
@@ -29,7 +26,7 @@ Feature: Settings on landing page
     And I press "Grün"
     Then I see "Grün"
     And I press "Hinzufügen"
-    And I press "settings"
+    And I press "options"
     Then I see "Grün"
     
   Scenario: Change color to orange
@@ -37,7 +34,7 @@ Feature: Settings on landing page
     And I press "Orange"
     Then I see "Orange"
     And I press "Hinzufügen"
-    And I press "settings"
+    And I press "options"
     Then I see "Orange"
     
   Scenario: Change color to lilac
@@ -45,7 +42,7 @@ Feature: Settings on landing page
     And I press "Lila"
     Then I see "Lila"
     And I press "Hinzufügen"
-    And I press "settings"
+    And I press "options"
     Then I see "Lila"
     
   Scenario: Change color to blue
@@ -53,12 +50,12 @@ Feature: Settings on landing page
     And I press "Rosa"
     Then I see "Rosa"
     And I press "Hinzufügen"
-    And I press "settings"
+    And I press "options"
     And I press "Rosa"
     And I press "Blau"
     Then I see "Blau"
     And I press "Hinzufügen"
-    And I press "settings"
+    And I press "options"
     Then I see "Blau"
     
   Scenario: Change language to English
@@ -88,7 +85,7 @@ Feature: Settings on landing page
     Then I see "Blue"
     And I press "Add"
     Then I see "Motivation, Fun & more"
-    And I press "settings"
+    And I press "options"
     And I press "EN"
     And I press "DE"
     Then I see "Blau"
