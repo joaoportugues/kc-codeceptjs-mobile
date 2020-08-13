@@ -1,4 +1,4 @@
 node_modules/
-reports/
+reports/202*
 output/*.png
 resources/properties.json
