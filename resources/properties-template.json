@@ -1,8 +1,199 @@
 {
-"browserStack":
-	{
-		"user" : "youeUser",
-		"key" : "yourKey",
-		"app" : "bs://your-app-path"
+	"browserStack": {
+		"user": "--",
+		"key": "--",
+		"appOld": "bs://-"
+
+	},
+	"sauceLabs": {
+		"user": "-",
+		"key": "-",
+		"appSim": "storage:-"
+	},
+	"appleID": {
+		"user": "-@-.-",
+		"pass": ""
+	},
+	"google": {
+		"user": "-@-.-",
+		"pass": "-@-"
+	},
+	"iosConfigs": {
+		"local": {
+			"emulator": {
+				"appium": {
+					"platform": "iOS",
+					"app": "de.kid-coins.development-qa",
+      				"capabilities": {
+        				"platformName":"iOS",
+        				"deviceName": "iPhone 11 Pro Max",
+        				"platformVersion": "13.6",
+        				"automationName": "XCUITest",
+						"appPackage": "de.kidcoins.development",
+						"appActivity": "de.kidcoins.kidcoins.MainActivity"
+      				}
+				}
+			},
+			"real": {
+				"appium": {
+					"platform": "iOS",
+					"app": "de.kid-coins.development-qa",
+      				"capabilities": {
+        				"platformName":"iOS",
+        				"deviceName": "iPhone",
+        				"udid": "---",
+        				"platformVersion": "13.6",
+        				"automationName": "XCUITest",
+						"xcodeOrgId": "-",
+    	  				"xcodeSigningId": "- -"
+      				}
+				}
+			}
+		},
+		"browserStack": {
+			"Phone11ProMaxReal": {
+				"appium": {
+					"platform": "iOS",
+					"app": "bs://-",
+					"host": "hub-cloud.browserstack.com",
+					"user": "-",
+					"key": "-",
+					"port": 4444,
+					"capabilities": {
+						"realMobile": true,
+						"build": "Node iOS 3",
+						"platformVersion": "13.4",
+						"deviceName": "iPhone 11 Pro Max",
+						"app": "bs://-",
+						"project": "Login From",
+						"name": "Login Test",
+						"browserstack.appium_version": "1.6.5"
+					}
+				}
+			},
+			"iPhone11ProReal": {
+				"appium": {
+					"platform": "iOS",
+					"app": "bs://-",
+					"host": "hub-cloud.browserstack.com",
+					"user": "-",
+					"key": "-",
+					"port": 4444,
+					"capabilities": {
+						"realMobile": true,
+						"build": "Node iOS",
+						"platformVersion": "13.4",
+						"deviceName": "iPhone 11 Pro",
+						"app": "bs://-",
+						"project": "Login From",
+						"name": "Login Test",
+						"browserstack.appium_version": "1.15.1"
+					}
+				}
+			}
+		},
+		"sauceLabs": {
+			"iPhone11ProMaxSim": {
+				"appium": {
+					"platformName": "iOS",
+					"app": "storage:-",
+		 			"host": "-:-@ondemand.eu-central-1.saucelabs.com",
+     	 			"path": "/wd/hub",
+		 			"port": 80,
+		 			"user": "-", 
+         			"key": "-", 
+    	 			"capabilities": {
+						"platformName": "iOS",
+						"platformVersion": "13.4",
+						"deviceName": "iPhone 11 Pro Max Simulator",
+						"project": "Login From",
+						"name": "Login Test",
+						"appiumVersion": "1.17.1",
+						"automationName": "Appium"
+					}
+				}
+			}
+		}
+	},
+	"androidConfigs": {
+		"local": {
+			"emulator": {
+				"appium": {
+					"platform": "Android",
+      				"capabilities": {
+        				"platformName":"Android",
+        				"deviceName": "emulator-5554",
+        				"platformVersion": "11",
+        				"automationName": "Appium",
+						"appPackage": "de.kidcoins.development",
+						"appActivity": "de.kidcoins.kidcoins.MainActivity"
+      				}
+				}
+			}
+		},
+		"browserStack": {
+			"GooglePixel3Real": {
+				"appium": {
+					"platform": "Android",
+					"app": "bs://-",
+					"host": "hub-cloud.browserstack.com",
+					"user": "-",
+					"key": "-",
+					"port": 4444,
+					"capabilities": {
+						"realMobile": true,
+						"build": "Node Android - 13/08(2)",
+						"platformVersion": "9.0",
+						"deviceName": "Google Pixel 3",
+						"app": "bs://-",
+						"project": "Login From",
+						"name": "Login Test",
+						"browserstack.appium_version": "1.17.0"
+					}
+				}
+			}
+		},
+		"sauceLabs": {
+			"GalaxyS8Sim": {
+				"appium": {
+					"platformName": "Android",
+					"app": "storage:-",
+		 			"host": "-:-c@ondemand.eu-central-1.saucelabs.com",
+     	 			"path": "/wd/hub",
+		 			"port": 80,
+		 			"user": "-", 
+         			"key": "-", 
+    	 			"capabilities": {
+						"platformName": "Android",
+						"platformVersion" : "8.1",
+						"deviceName": "Samsung Galaxy S8 Plus WQHD GoogleAPI Emulator",
+						"project": "Login From",
+						"name": "Login Test",
+						"appiumVersion": "1.17.1",
+						"automationName": "Appium"
+					}
+				}
+			},
+			"GalaxyA2CoreReal": {
+				"appium": {
+					"platformName": "Android",
+					"app": "storage:-",
+		 			"host": "-:-@ondemand.eu-central-1.saucelabs.com",
+     	 			"path": "/wd/hub",
+		 			"port": 80,
+		 			"user": "-", 
+         			"key": "-", 
+    	 			"capabilities": {
+						"platformName": "Android",
+						"platformVersion" : "8.1.0",
+						"deviceName": "Samsung Galaxy A2 Core",
+						"project": "Login From",
+						"name": "Login Test",
+						"appiumVersion": "1.17.1",
+						"automationName": "Appium"
+					}
+				}
+			}
+		}
 	}
 }

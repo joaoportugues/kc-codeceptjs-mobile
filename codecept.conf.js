@@ -8,6 +8,8 @@ var today = new Date();
 var today = new Date();
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 
+//json configs in properties file
+
 //var deviceConfig = "properties.iosConfigs.local.emulator.appium"
 var deviceConfig = "properties.androidConfigs.local.emulator.appium"
 

@@ -1,5 +1,4 @@
 node_modules/
-reports/android*
-reports/ios*
+reports/
 output/*.png
 resources/properties.json
