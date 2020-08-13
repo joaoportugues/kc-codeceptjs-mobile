@@ -1,0 +1,491 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597326255149' stop='1597326437160'>
+    <name>Landing page</name>
+    <title>Landing page</title>
+    <test-cases>
+        <test-case start='1597326255150' status='passed' stop='1597326270814'>
+            <name>All login and registration options are available</name>
+            <title>All login and registration options are available</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597326270605' status='passed' stop='1597326270642'>
+                    <name>Then I see "Motivation, Spaß und mehr" </name>
+                    <title>Then I see "Motivation, Spaß und mehr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326270605' status='passed' stop='1597326270642'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326270605' status='passed' stop='1597326270642'>
+                                    <name>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</name>
+                                    <title>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326270642' status='passed' stop='1597326270683'>
+                    <name>Then I see "Mit Apple anmelden" </name>
+                    <title>Then I see "Mit Apple anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326270642' status='passed' stop='1597326270683'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326270642' status='passed' stop='1597326270683'>
+                                    <name>I wait for element {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}, 20</name>
+                                    <title>I wait for element {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326270683' status='passed' stop='1597326270718'>
+                    <name>Then I see "Mit Google anmelden" </name>
+                    <title>Then I see "Mit Google anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326270683' status='passed' stop='1597326270718'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326270683' status='passed' stop='1597326270718'>
+                                    <name>I wait for element {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}, 20</name>
+                                    <title>I wait for element {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326270718' status='passed' stop='1597326270751'>
+                    <name>Then I see "Mit dem Handy anmelden" </name>
+                    <title>Then I see "Mit dem Handy anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326270718' status='passed' stop='1597326270751'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326270718' status='passed' stop='1597326270751'>
+                                    <name>I wait for element {"android":"Mit dem Handy anmelden","ios":"~Mit dem Handy anmelden"}, 20</name>
+                                    <title>I wait for element {"android":"Mit dem Handy anmelden","ios":"~Mit dem Handy anmelden"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326270751' status='passed' stop='1597326270783'>
+                    <name>Then I see "Registrieren" </name>
+                    <title>Then I see "Registrieren" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326270751' status='passed' stop='1597326270783'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326270751' status='passed' stop='1597326270783'>
+                                    <name>I wait for element {"android":"Registrieren","ios":"~Registrieren"}, 20</name>
+                                    <title>I wait for element {"android":"Registrieren","ios":"~Registrieren"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326270783' status='passed' stop='1597326270814'>
+                    <name>Then I see "Login" </name>
+                    <title>Then I see "Login" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326270783' status='passed' stop='1597326270814'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326270783' status='passed' stop='1597326270813'>
+                                    <name>I wait for element {"android":"Login","ios":"~Login"}, 20</name>
+                                    <title>I wait for element {"android":"Login","ios":"~Login"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597326271387' status='failed' stop='1597326302734'>
+            <name>Login with Apple ID and cancel on apple id sign in @TKC-16 @androidOnly</name>
+            <title>Login with Apple ID and cancel on apple id sign in @TKC-16 @androidOnly</title>
+            <labels>
+                <label name='tag' value='@TKC-16'/>
+                <label name='tag' value='@androidOnly'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1597326281703' status='passed' stop='1597326282730'>
+                    <name>And I press "Mit Apple anmelden" </name>
+                    <title>And I press "Mit Apple anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326281703' status='passed' stop='1597326282730'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326281703' status='passed' stop='1597326282729'>
+                                    <name>I tap {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}</name>
+                                    <title>I tap {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326282730' status='failed' stop='1597326302734'>
+                    <name>Then I see "Sign In with your Apple ID" </name>
+                    <title>Then I see "Sign In with your Apple ID" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326282730' status='failed' stop='1597326302734'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326282730' status='failed' stop='1597326302733'>
+                                    <name>I wait for element {"android":"Sign In with your Apple ID","ios":"~Sign In with your Apple ID"}, 20</name>
+                                    <title>I wait for element {"android":"Sign In with your Apple ID","ios":"~Sign In with your Apple ID"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='d355b1fd-5d8e-4d8c-afb1-ba252c4d235c-attachment.png' type='image/png' size='316245'/>
+            </attachments>
+            <failure>
+                <message>element (android=new UiSelector().text("Sign In with your Apple ID")) still not present on page after 20 sec</message>
+                <stack-trace>Error: element (android=new UiSelector().text("Sign In with your Apple ID")) still not present on page after 20 sec
+                    at /Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/build/commands/browser/waitUntil.js:34:15
+                    at async Browser.wrapCommandFn (/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597326303896' status='failed' stop='1597326336654'>
+            <name>Login with Apple ID and cancel immediately @TKC-16 @androidOnly</name>
+            <title>Login with Apple ID and cancel immediately @TKC-16 @androidOnly</title>
+            <labels>
+                <label name='tag' value='@TKC-16'/>
+                <label name='tag' value='@androidOnly'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1597326315615' status='passed' stop='1597326316651'>
+                    <name>And I press "Mit Apple anmelden" </name>
+                    <title>And I press "Mit Apple anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326315615' status='passed' stop='1597326316651'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326315615' status='passed' stop='1597326316651'>
+                                    <name>I tap {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}</name>
+                                    <title>I tap {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326316651' status='failed' stop='1597326336654'>
+                    <name>Then I see "Sign In with your Apple ID" </name>
+                    <title>Then I see "Sign In with your Apple ID" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326316651' status='failed' stop='1597326336654'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326316651' status='failed' stop='1597326336654'>
+                                    <name>I wait for element {"android":"Sign In with your Apple ID","ios":"~Sign In with your Apple ID"}, 20</name>
+                                    <title>I wait for element {"android":"Sign In with your Apple ID","ios":"~Sign In with your Apple ID"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='17862ed6-31dc-4625-9a52-f720de555e8d-attachment.png' type='image/png' size='316245'/>
+            </attachments>
+            <failure>
+                <message>element (android=new UiSelector().text("Sign In with your Apple ID")) still not present on page after 20 sec</message>
+                <stack-trace>Error: element (android=new UiSelector().text("Sign In with your Apple ID")) still not present on page after 20 sec
+                    at /Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/build/commands/browser/waitUntil.js:34:15
+                    at async Browser.wrapCommandFn (/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597326337838' status='failed' stop='1597326370626'>
+            <name>Login with Google and cancel</name>
+            <title>Login with Google and cancel</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597326349433' status='passed' stop='1597326350622'>
+                    <name>And I press "Mit Google anmelden" </name>
+                    <title>And I press "Mit Google anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326349433' status='passed' stop='1597326350622'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326349433' status='passed' stop='1597326350622'>
+                                    <name>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</name>
+                                    <title>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326350622' status='failed' stop='1597326370626'>
+                    <name>Then I see "This allows the app and website to share information about you." </name>
+                    <title>Then I see "This allows the app and website to share information about you." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326350622' status='failed' stop='1597326370626'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326350622' status='failed' stop='1597326370626'>
+                                    <name>I wait for element {"android":"This allows the app and website to share information about you.","ios":"~This allows the app and website to share information about you."}, 20</name>
+                                    <title>I wait for element {"android":"This allows the app and website to share information about you.","ios":"~This allows the app and website to share information about you."}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='3a1c0f85-7663-4eab-8805-8a838cc0a88f-attachment.png' type='image/png' size='95455'/>
+            </attachments>
+            <failure>
+                <message>element (android=new UiSelector().text("This allows the app and website to share information about you.")) still not present on page after 20 sec</message>
+                <stack-trace>Error: element (android=new UiSelector().text("This allows the app and website to share information about you.")) still not present on page after 20 sec
+                    at /Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/build/commands/browser/waitUntil.js:34:15
+                    at async Browser.wrapCommandFn (/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597326371536' status='failed' stop='1597326407623'>
+            <name>Login with Google and continue</name>
+            <title>Login with Google and continue</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597326385538' status='passed' stop='1597326387617'>
+                    <name>And I press "Mit Google anmelden" </name>
+                    <title>And I press "Mit Google anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326385538' status='passed' stop='1597326387617'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326385538' status='passed' stop='1597326387617'>
+                                    <name>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</name>
+                                    <title>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326387617' status='failed' stop='1597326407623'>
+                    <name>Then I see "This allows the app and website to share information about you." </name>
+                    <title>Then I see "This allows the app and website to share information about you." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326387617' status='failed' stop='1597326407623'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326387617' status='failed' stop='1597326407623'>
+                                    <name>I wait for element {"android":"This allows the app and website to share information about you.","ios":"~This allows the app and website to share information about you."}, 20</name>
+                                    <title>I wait for element {"android":"This allows the app and website to share information about you.","ios":"~This allows the app and website to share information about you."}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='00ad458f-969b-41f4-a49a-c66e250e2147-attachment.png' type='image/png' size='95455'/>
+            </attachments>
+            <failure>
+                <message>element (android=new UiSelector().text("This allows the app and website to share information about you.")) still not present on page after 20 sec</message>
+                <stack-trace>Error: element (android=new UiSelector().text("This allows the app and website to share information about you.")) still not present on page after 20 sec
+                    at /Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/build/commands/browser/waitUntil.js:34:15
+                    at async Browser.wrapCommandFn (/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597326408337' status='failed' stop='1597326436475'>
+            <name>Login with Google and finish process @TKC-17</name>
+            <title>Login with Google and finish process @TKC-17</title>
+            <labels>
+                <label name='tag' value='@TKC-17'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1597326423967' status='passed' stop='1597326426716'>
+                    <name>And I press "Mit Google anmelden" </name>
+                    <title>And I press "Mit Google anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326423967' status='passed' stop='1597326426716'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326423967' status='passed' stop='1597326426716'>
+                                    <name>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</name>
+                                    <title>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326426716' status='passed' stop='1597326430365'>
+                    <name>Then I see "Allow app" </name>
+                    <title>Then I see "Allow app" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326426716' status='passed' stop='1597326430365'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326426716' status='passed' stop='1597326430365'>
+                                    <name>I wait for element {"android":"Sign in","ios":"~This allows the app and website to share information about you."}, 20</name>
+                                    <title>I wait for element {"android":"Sign in","ios":"~This allows the app and website to share information about you."}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326430365' status='passed' stop='1597326430365'>
+                    <name>And I press "Continue" </name>
+                    <title>And I press "Continue" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326430365' status='passed' stop='1597326430365'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326430365' status='passed' stop='1597326430365'>
+                                    <name>I run on i o s () => {
+                                    					I.runOnIOS(() => {I.tap({android: name , ios:'~' +name});}
+                                    					);
+                                    				}</name>
+                                    <title>I run on i o s () => {
+                                    					I.runOnIOS(() => {I.tap({android: name , ios:'~' +name});}
+                                    					);
+                                    				}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597326430365' status='failed' stop='1597326436475'>
+                    <name>Then I type "jtime002@gmail.com" in "email" </name>
+                    <title>Then I type "jtime002@gmail.com" in "email" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597326430365' status='failed' stop='1597326436475'>
+                            <name>Object: type </name>
+                            <title>Object: type </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597326430365' status='passed' stop='1597326430464'>
+                                    <name>I wait for element "Forgot email?", 20</name>
+                                    <title>I wait for element "Forgot email?", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1597326430464' status='passed' stop='1597326431411'>
+                                    <name>I touch perform [{"action":"press","options":{"x":205,"y":860}},{"action":"release"}]</name>
+                                    <title>I touch perform [{"action":"press","options":{"x":205,"y":860}},{"action":"release"}]</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1597326431411' status='failed' stop='1597326436475'>
+                                    <name>I type "jtime002@gmail.com", 100</name>
+                                    <title>I type "jtime002@gmail.com", 100</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='ba4a1731-99b8-470d-b867-c941fc382936-attachment.png' type='image/png' size='95394'/>
+            </attachments>
+            <failure>
+                <message>The URL '/wd/hub/session/d6c9f2be-8bce-4f5f-9b1e-88dc6315beff/actions' did not map to a valid resource</message>
+                <stack-trace>Error: The URL '/wd/hub/session/d6c9f2be-8bce-4f5f-9b1e-88dc6315beff/actions' did not map to a valid resource
+                    at getErrorFromResponseBody (/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/node_modules/webdriver/build/utils.js:114:12)
+                    at WebDriverRequest._request (/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/node_modules/webdriver/build/request.js:149:56)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Browser.wrapCommandFn (/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:74:23)
+                    at async Browser.wrapCommandFn (/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:74:23)
+                    at async Appium.type (/Users/ragnarok/Documents/kc/kc-codeceptjs-mobile/node_modules/codeceptjs/lib/helper/WebDriver.js:1780:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

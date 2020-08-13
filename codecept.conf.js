@@ -1,5 +1,4 @@
 const properties = require('./resources/properties.json')
-const allure = codeceptjs.container.plugins('allure');
 
 const fs = require('fs')
 const path = require('path')
@@ -9,22 +8,19 @@ var today = new Date();
 var today = new Date();
 var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 
-var deviceConfig = "properties.iosConfigs.local.emulator.appium"
-//var deviceConfig = "properties.androidConfigs.sauceLabs.GalaxyS8Sim.appium""
+//var deviceConfig = "properties.iosConfigs.local.emulator.appium"
+var deviceConfig = "properties.androidConfigs.local.emulator.appium"
 
 var env = deviceConfig.split (".")
-console.log(env[1])
 
-var deviceConfig = properties.iosConfigs.local.emulator.appium
-//var deviceConfig = properties.androidConfigs.sauceLabs.GalaxyS8Sim.appium
+//var deviceConfig = properties.iosConfigs.local.emulator.appium
+var deviceConfig = properties.androidConfigs.local.emulator.appium
 
 reportsDirectory = './'+ directory + '/' + date + "-" + env[2] + "-" + env[3] + "-" + deviceConfig.capabilities.deviceName
 
 if (!fs.existsSync(reportsDirectory)) {
     fs.mkdirSync(reportsDirectory);
 }
-
-allure.environment()
 
 exports.config = {
   output: './output',
