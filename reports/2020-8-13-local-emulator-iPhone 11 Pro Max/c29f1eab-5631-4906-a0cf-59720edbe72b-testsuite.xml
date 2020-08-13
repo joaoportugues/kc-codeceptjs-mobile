@@ -1,0 +1,1399 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597324550838' stop='1597324677297'>
+    <name>Settings on landing page</name>
+    <title>Settings on landing page</title>
+    <test-cases>
+        <test-case start='1597324550838' status='passed' stop='1597324558836'>
+            <name>Settins Menu opens correctly and options are available @runThis</name>
+            <title>Settins Menu opens correctly and options are available @runThis</title>
+            <labels>
+                <label name='tag' value='@runThis'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1597324558058' status='passed' stop='1597324558629'>
+                    <name>Then I see "Einstellungen" </name>
+                    <title>Then I see "Einstellungen" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324558058' status='passed' stop='1597324558629'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324558058' status='passed' stop='1597324558629'>
+                                    <name>I wait for element {"android":"Einstellungen","ios":"~Einstellungen"}, 20</name>
+                                    <title>I wait for element {"android":"Einstellungen","ios":"~Einstellungen"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324558629' status='passed' stop='1597324558692'>
+                    <name>Then I see "Themenauswahl" </name>
+                    <title>Then I see "Themenauswahl" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324558629' status='passed' stop='1597324558692'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324558629' status='passed' stop='1597324558692'>
+                                    <name>I wait for element {"android":"Themenauswahl","ios":"~Themenauswahl"}, 20</name>
+                                    <title>I wait for element {"android":"Themenauswahl","ios":"~Themenauswahl"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324558692' status='passed' stop='1597324558772'>
+                    <name>Then I see "Sprachauswahl" </name>
+                    <title>Then I see "Sprachauswahl" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324558692' status='passed' stop='1597324558772'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324558692' status='passed' stop='1597324558772'>
+                                    <name>I wait for element {"android":"Sprachauswahl","ios":"~Sprachauswahl"}, 20</name>
+                                    <title>I wait for element {"android":"Sprachauswahl","ios":"~Sprachauswahl"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324558772' status='passed' stop='1597324558836'>
+                    <name>Then I see "Hinzufügen" </name>
+                    <title>Then I see "Hinzufügen" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324558772' status='passed' stop='1597324558836'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324558772' status='passed' stop='1597324558836'>
+                                    <name>I wait for element {"android":"Hinzufügen","ios":"~Hinzufügen"}, 20</name>
+                                    <title>I wait for element {"android":"Hinzufügen","ios":"~Hinzufügen"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324559865' status='passed' stop='1597324572216'>
+            <name>Change color to pink</name>
+            <title>Change color to pink</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324569242' status='passed' stop='1597324569888'>
+                    <name>And I press "Blau" </name>
+                    <title>And I press "Blau" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324569242' status='passed' stop='1597324569888'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324569242' status='passed' stop='1597324569888'>
+                                    <name>I tap {"android":"Blau","ios":"~Blau"}</name>
+                                    <title>I tap {"android":"Blau","ios":"~Blau"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324569888' status='passed' stop='1597324570585'>
+                    <name>And I press "Rosa" </name>
+                    <title>And I press "Rosa" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324569888' status='passed' stop='1597324570585'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324569888' status='passed' stop='1597324570585'>
+                                    <name>I tap {"android":"Rosa","ios":"~Rosa"}</name>
+                                    <title>I tap {"android":"Rosa","ios":"~Rosa"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324570585' status='passed' stop='1597324570676'>
+                    <name>Then I see "Rosa" </name>
+                    <title>Then I see "Rosa" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324570585' status='passed' stop='1597324570676'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324570585' status='passed' stop='1597324570676'>
+                                    <name>I wait for element {"android":"Rosa","ios":"~Rosa"}, 20</name>
+                                    <title>I wait for element {"android":"Rosa","ios":"~Rosa"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324570676' status='passed' stop='1597324571207'>
+                    <name>And I press "Hinzufügen" </name>
+                    <title>And I press "Hinzufügen" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324570676' status='passed' stop='1597324571207'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324570676' status='passed' stop='1597324571206'>
+                                    <name>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</name>
+                                    <title>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324571207' status='passed' stop='1597324571653'>
+                    <name>And I press "options" </name>
+                    <title>And I press "options" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324571207' status='passed' stop='1597324571653'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324571207' status='passed' stop='1597324571653'>
+                                    <name>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</name>
+                                    <title>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324571653' status='passed' stop='1597324572216'>
+                    <name>Then I see "Rosa" </name>
+                    <title>Then I see "Rosa" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324571653' status='passed' stop='1597324572216'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324571653' status='passed' stop='1597324572216'>
+                                    <name>I wait for element {"android":"Rosa","ios":"~Rosa"}, 20</name>
+                                    <title>I wait for element {"android":"Rosa","ios":"~Rosa"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324573237' status='passed' stop='1597324584270'>
+            <name>Change color to green</name>
+            <title>Change color to green</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324581491' status='passed' stop='1597324582133'>
+                    <name>And I press "Blau" </name>
+                    <title>And I press "Blau" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324581491' status='passed' stop='1597324582133'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324581491' status='passed' stop='1597324582133'>
+                                    <name>I tap {"android":"Blau","ios":"~Blau"}</name>
+                                    <title>I tap {"android":"Blau","ios":"~Blau"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324582133' status='passed' stop='1597324582704'>
+                    <name>And I press "Grün" </name>
+                    <title>And I press "Grün" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324582133' status='passed' stop='1597324582704'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324582133' status='passed' stop='1597324582704'>
+                                    <name>I tap {"android":"Grün","ios":"~Grün"}</name>
+                                    <title>I tap {"android":"Grün","ios":"~Grün"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324582704' status='passed' stop='1597324582791'>
+                    <name>Then I see "Grün" </name>
+                    <title>Then I see "Grün" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324582704' status='passed' stop='1597324582791'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324582704' status='passed' stop='1597324582791'>
+                                    <name>I wait for element {"android":"Grün","ios":"~Grün"}, 20</name>
+                                    <title>I wait for element {"android":"Grün","ios":"~Grün"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324582791' status='passed' stop='1597324583464'>
+                    <name>And I press "Hinzufügen" </name>
+                    <title>And I press "Hinzufügen" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324582791' status='passed' stop='1597324583464'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324582791' status='passed' stop='1597324583464'>
+                                    <name>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</name>
+                                    <title>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324583464' status='passed' stop='1597324584008'>
+                    <name>And I press "options" </name>
+                    <title>And I press "options" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324583464' status='passed' stop='1597324584008'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324583464' status='passed' stop='1597324584008'>
+                                    <name>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</name>
+                                    <title>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324584008' status='passed' stop='1597324584270'>
+                    <name>Then I see "Grün" </name>
+                    <title>Then I see "Grün" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324584008' status='passed' stop='1597324584270'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324584008' status='passed' stop='1597324584270'>
+                                    <name>I wait for element {"android":"Grün","ios":"~Grün"}, 20</name>
+                                    <title>I wait for element {"android":"Grün","ios":"~Grün"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324585315' status='passed' stop='1597324597598'>
+            <name>Change color to orange</name>
+            <title>Change color to orange</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324594883' status='passed' stop='1597324595472'>
+                    <name>And I press "Blau" </name>
+                    <title>And I press "Blau" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324594883' status='passed' stop='1597324595472'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324594883' status='passed' stop='1597324595472'>
+                                    <name>I tap {"android":"Blau","ios":"~Blau"}</name>
+                                    <title>I tap {"android":"Blau","ios":"~Blau"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324595472' status='passed' stop='1597324596185'>
+                    <name>And I press "Orange" </name>
+                    <title>And I press "Orange" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324595472' status='passed' stop='1597324596185'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324595472' status='passed' stop='1597324596185'>
+                                    <name>I tap {"android":"Orange","ios":"~Orange"}</name>
+                                    <title>I tap {"android":"Orange","ios":"~Orange"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324596185' status='passed' stop='1597324596289'>
+                    <name>Then I see "Orange" </name>
+                    <title>Then I see "Orange" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324596185' status='passed' stop='1597324596289'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324596185' status='passed' stop='1597324596288'>
+                                    <name>I wait for element {"android":"Orange","ios":"~Orange"}, 20</name>
+                                    <title>I wait for element {"android":"Orange","ios":"~Orange"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324596289' status='passed' stop='1597324596830'>
+                    <name>And I press "Hinzufügen" </name>
+                    <title>And I press "Hinzufügen" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324596289' status='passed' stop='1597324596830'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324596289' status='passed' stop='1597324596830'>
+                                    <name>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</name>
+                                    <title>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324596830' status='passed' stop='1597324597364'>
+                    <name>And I press "options" </name>
+                    <title>And I press "options" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324596830' status='passed' stop='1597324597364'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324596830' status='passed' stop='1597324597364'>
+                                    <name>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</name>
+                                    <title>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324597364' status='passed' stop='1597324597598'>
+                    <name>Then I see "Orange" </name>
+                    <title>Then I see "Orange" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324597364' status='passed' stop='1597324597598'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324597364' status='passed' stop='1597324597598'>
+                                    <name>I wait for element {"android":"Orange","ios":"~Orange"}, 20</name>
+                                    <title>I wait for element {"android":"Orange","ios":"~Orange"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324598668' status='passed' stop='1597324609824'>
+            <name>Change color to lilac</name>
+            <title>Change color to lilac</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324607079' status='passed' stop='1597324607731'>
+                    <name>And I press "Blau" </name>
+                    <title>And I press "Blau" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324607079' status='passed' stop='1597324607731'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324607079' status='passed' stop='1597324607730'>
+                                    <name>I tap {"android":"Blau","ios":"~Blau"}</name>
+                                    <title>I tap {"android":"Blau","ios":"~Blau"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324607731' status='passed' stop='1597324608295'>
+                    <name>And I press "Lila" </name>
+                    <title>And I press "Lila" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324607731' status='passed' stop='1597324608295'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324607731' status='passed' stop='1597324608295'>
+                                    <name>I tap {"android":"Lila","ios":"~Lila"}</name>
+                                    <title>I tap {"android":"Lila","ios":"~Lila"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324608295' status='passed' stop='1597324608387'>
+                    <name>Then I see "Lila" </name>
+                    <title>Then I see "Lila" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324608295' status='passed' stop='1597324608387'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324608295' status='passed' stop='1597324608387'>
+                                    <name>I wait for element {"android":"Lila","ios":"~Lila"}, 20</name>
+                                    <title>I wait for element {"android":"Lila","ios":"~Lila"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324608387' status='passed' stop='1597324609075'>
+                    <name>And I press "Hinzufügen" </name>
+                    <title>And I press "Hinzufügen" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324608387' status='passed' stop='1597324609075'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324608387' status='passed' stop='1597324609075'>
+                                    <name>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</name>
+                                    <title>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324609075' status='passed' stop='1597324609623'>
+                    <name>And I press "options" </name>
+                    <title>And I press "options" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324609075' status='passed' stop='1597324609623'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324609075' status='passed' stop='1597324609622'>
+                                    <name>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</name>
+                                    <title>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324609623' status='passed' stop='1597324609824'>
+                    <name>Then I see "Lila" </name>
+                    <title>Then I see "Lila" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324609623' status='passed' stop='1597324609824'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324609623' status='passed' stop='1597324609824'>
+                                    <name>I wait for element {"android":"Lila","ios":"~Lila"}, 20</name>
+                                    <title>I wait for element {"android":"Lila","ios":"~Lila"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324610903' status='passed' stop='1597324625389'>
+            <name>Change color to blue</name>
+            <title>Change color to blue</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324620286' status='passed' stop='1597324621001'>
+                    <name>And I press "Blau" </name>
+                    <title>And I press "Blau" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324620286' status='passed' stop='1597324621001'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324620286' status='passed' stop='1597324621001'>
+                                    <name>I tap {"android":"Blau","ios":"~Blau"}</name>
+                                    <title>I tap {"android":"Blau","ios":"~Blau"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324621001' status='passed' stop='1597324621608'>
+                    <name>And I press "Rosa" </name>
+                    <title>And I press "Rosa" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324621001' status='passed' stop='1597324621608'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324621001' status='passed' stop='1597324621608'>
+                                    <name>I tap {"android":"Rosa","ios":"~Rosa"}</name>
+                                    <title>I tap {"android":"Rosa","ios":"~Rosa"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324621608' status='passed' stop='1597324621696'>
+                    <name>Then I see "Rosa" </name>
+                    <title>Then I see "Rosa" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324621608' status='passed' stop='1597324621696'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324621608' status='passed' stop='1597324621696'>
+                                    <name>I wait for element {"android":"Rosa","ios":"~Rosa"}, 20</name>
+                                    <title>I wait for element {"android":"Rosa","ios":"~Rosa"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324621696' status='passed' stop='1597324622086'>
+                    <name>And I press "Hinzufügen" </name>
+                    <title>And I press "Hinzufügen" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324621696' status='passed' stop='1597324622086'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324621696' status='passed' stop='1597324622086'>
+                                    <name>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</name>
+                                    <title>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324622086' status='passed' stop='1597324622679'>
+                    <name>And I press "options" </name>
+                    <title>And I press "options" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324622086' status='passed' stop='1597324622679'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324622086' status='passed' stop='1597324622679'>
+                                    <name>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</name>
+                                    <title>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324622679' status='passed' stop='1597324623182'>
+                    <name>And I press "Rosa" </name>
+                    <title>And I press "Rosa" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324622679' status='passed' stop='1597324623182'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324622679' status='passed' stop='1597324623182'>
+                                    <name>I tap {"android":"Rosa","ios":"~Rosa"}</name>
+                                    <title>I tap {"android":"Rosa","ios":"~Rosa"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324623182' status='passed' stop='1597324623738'>
+                    <name>And I press "Blau" </name>
+                    <title>And I press "Blau" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324623182' status='passed' stop='1597324623738'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324623182' status='passed' stop='1597324623738'>
+                                    <name>I tap {"android":"Blau","ios":"~Blau"}</name>
+                                    <title>I tap {"android":"Blau","ios":"~Blau"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324623738' status='passed' stop='1597324624307'>
+                    <name>Then I see "Blau" </name>
+                    <title>Then I see "Blau" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324623738' status='passed' stop='1597324624307'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324623738' status='passed' stop='1597324624307'>
+                                    <name>I wait for element {"android":"Blau","ios":"~Blau"}, 20</name>
+                                    <title>I wait for element {"android":"Blau","ios":"~Blau"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324624307' status='passed' stop='1597324624635'>
+                    <name>And I press "Hinzufügen" </name>
+                    <title>And I press "Hinzufügen" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324624307' status='passed' stop='1597324624635'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324624307' status='passed' stop='1597324624635'>
+                                    <name>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</name>
+                                    <title>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324624635' status='passed' stop='1597324625171'>
+                    <name>And I press "options" </name>
+                    <title>And I press "options" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324624635' status='passed' stop='1597324625171'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324624635' status='passed' stop='1597324625171'>
+                                    <name>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</name>
+                                    <title>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324625171' status='passed' stop='1597324625389'>
+                    <name>Then I see "Blau" </name>
+                    <title>Then I see "Blau" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324625171' status='passed' stop='1597324625389'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324625171' status='passed' stop='1597324625389'>
+                                    <name>I wait for element {"android":"Blau","ios":"~Blau"}, 20</name>
+                                    <title>I wait for element {"android":"Blau","ios":"~Blau"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324626417' status='passed' stop='1597324636992'>
+            <name>Change language to English</name>
+            <title>Change language to English</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324634762' status='passed' stop='1597324635321'>
+                    <name>And I press "DE" </name>
+                    <title>And I press "DE" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324634762' status='passed' stop='1597324635321'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324634762' status='passed' stop='1597324635320'>
+                                    <name>I tap {"android":"DE","ios":"~DE"}</name>
+                                    <title>I tap {"android":"DE","ios":"~DE"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324635321' status='passed' stop='1597324635909'>
+                    <name>And I press "EN" </name>
+                    <title>And I press "EN" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324635321' status='passed' stop='1597324635909'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324635321' status='passed' stop='1597324635909'>
+                                    <name>I tap {"android":"EN","ios":"~EN"}</name>
+                                    <title>I tap {"android":"EN","ios":"~EN"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324635909' status='passed' stop='1597324636471'>
+                    <name>Then I see "Blue" </name>
+                    <title>Then I see "Blue" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324635909' status='passed' stop='1597324636471'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324635909' status='passed' stop='1597324636471'>
+                                    <name>I wait for element {"android":"Blue","ios":"~Blue"}, 20</name>
+                                    <title>I wait for element {"android":"Blue","ios":"~Blue"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324636471' status='passed' stop='1597324636800'>
+                    <name>And I press "Add" </name>
+                    <title>And I press "Add" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324636471' status='passed' stop='1597324636800'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324636471' status='passed' stop='1597324636799'>
+                                    <name>I tap {"android":"Add","ios":"~Add"}</name>
+                                    <title>I tap {"android":"Add","ios":"~Add"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324636800' status='passed' stop='1597324636992'>
+                    <name>Then I see "Motivation, Fun &amp; more" </name>
+                    <title>Then I see "Motivation, Fun &amp; more" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324636800' status='passed' stop='1597324636992'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324636800' status='passed' stop='1597324636992'>
+                                    <name>I wait for element {"android":"Motivation, Fun &amp; more","ios":"~Motivation, Fun &amp; more"}, 20</name>
+                                    <title>I wait for element {"android":"Motivation, Fun &amp; more","ios":"~Motivation, Fun &amp; more"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324638033' status='passed' stop='1597324649580'>
+            <name>Change language to Spanish</name>
+            <title>Change language to Spanish</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324647221' status='passed' stop='1597324647849'>
+                    <name>And I press "DE" </name>
+                    <title>And I press "DE" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324647221' status='passed' stop='1597324647849'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324647221' status='passed' stop='1597324647849'>
+                                    <name>I tap {"android":"DE","ios":"~DE"}</name>
+                                    <title>I tap {"android":"DE","ios":"~DE"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324647849' status='passed' stop='1597324648507'>
+                    <name>And I press "ES" </name>
+                    <title>And I press "ES" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324647849' status='passed' stop='1597324648507'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324647849' status='passed' stop='1597324648507'>
+                                    <name>I tap {"android":"ES","ios":"~ES"}</name>
+                                    <title>I tap {"android":"ES","ios":"~ES"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324648507' status='passed' stop='1597324649078'>
+                    <name>Then I see "Azul" </name>
+                    <title>Then I see "Azul" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324648507' status='passed' stop='1597324649078'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324648507' status='passed' stop='1597324649078'>
+                                    <name>I wait for element {"android":"Azul","ios":"~Azul"}, 20</name>
+                                    <title>I wait for element {"android":"Azul","ios":"~Azul"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324649078' status='passed' stop='1597324649436'>
+                    <name>And I press "Añade" </name>
+                    <title>And I press "Añade" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324649078' status='passed' stop='1597324649436'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324649078' status='passed' stop='1597324649435'>
+                                    <name>I tap {"android":"Añade","ios":"~Añade"}</name>
+                                    <title>I tap {"android":"Añade","ios":"~Añade"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324649436' status='passed' stop='1597324649580'>
+                    <name>Then I see "Motivación, diversión y más" </name>
+                    <title>Then I see "Motivación, diversión y más" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324649436' status='passed' stop='1597324649580'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324649436' status='passed' stop='1597324649580'>
+                                    <name>I wait for element {"android":"Motivación, diversión y más","ios":"~Motivación, diversión y más"}, 20</name>
+                                    <title>I wait for element {"android":"Motivación, diversión y más","ios":"~Motivación, diversión y más"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324650619' status='passed' stop='1597324661087'>
+            <name>Change language to Turkish</name>
+            <title>Change language to Turkish</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324658705' status='passed' stop='1597324659290'>
+                    <name>And I press "DE" </name>
+                    <title>And I press "DE" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324658705' status='passed' stop='1597324659290'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324658705' status='passed' stop='1597324659290'>
+                                    <name>I tap {"android":"DE","ios":"~DE"}</name>
+                                    <title>I tap {"android":"DE","ios":"~DE"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324659290' status='passed' stop='1597324660014'>
+                    <name>And I press "TR" </name>
+                    <title>And I press "TR" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324659290' status='passed' stop='1597324660014'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324659290' status='passed' stop='1597324660014'>
+                                    <name>I tap {"android":"TR","ios":"~TR"}</name>
+                                    <title>I tap {"android":"TR","ios":"~TR"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324660014' status='passed' stop='1597324660581'>
+                    <name>Then I see "Mavi" </name>
+                    <title>Then I see "Mavi" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324660014' status='passed' stop='1597324660581'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324660014' status='passed' stop='1597324660581'>
+                                    <name>I wait for element {"android":"Mavi","ios":"~Mavi"}, 20</name>
+                                    <title>I wait for element {"android":"Mavi","ios":"~Mavi"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324660581' status='passed' stop='1597324660810'>
+                    <name>And I press "Ekle" </name>
+                    <title>And I press "Ekle" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324660581' status='passed' stop='1597324660810'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324660581' status='passed' stop='1597324660810'>
+                                    <name>I tap {"android":"Ekle","ios":"~Ekle"}</name>
+                                    <title>I tap {"android":"Ekle","ios":"~Ekle"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324660810' status='passed' stop='1597324661087'>
+                    <name>Then I see "Motivasyon, eğlence ve daha fazlası" </name>
+                    <title>Then I see "Motivasyon, eğlence ve daha fazlası" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324660810' status='passed' stop='1597324661087'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324660810' status='passed' stop='1597324661087'>
+                                    <name>I wait for element {"android":"Motivasyon, eğlence ve daha fazlası","ios":"~Motivasyon, eğlence ve daha fazlası"}, 20</name>
+                                    <title>I wait for element {"android":"Motivasyon, eğlence ve daha fazlası","ios":"~Motivasyon, eğlence ve daha fazlası"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324662115' status='passed' stop='1597324676225'>
+            <name>Change language to German</name>
+            <title>Change language to German</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324671364' status='passed' stop='1597324671934'>
+                    <name>And I press "DE" </name>
+                    <title>And I press "DE" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324671364' status='passed' stop='1597324671934'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324671364' status='passed' stop='1597324671934'>
+                                    <name>I tap {"android":"DE","ios":"~DE"}</name>
+                                    <title>I tap {"android":"DE","ios":"~DE"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324671934' status='passed' stop='1597324672613'>
+                    <name>And I press "EN" </name>
+                    <title>And I press "EN" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324671934' status='passed' stop='1597324672613'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324671934' status='passed' stop='1597324672613'>
+                                    <name>I tap {"android":"EN","ios":"~EN"}</name>
+                                    <title>I tap {"android":"EN","ios":"~EN"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324672613' status='passed' stop='1597324673173'>
+                    <name>Then I see "Blue" </name>
+                    <title>Then I see "Blue" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324672613' status='passed' stop='1597324673173'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324672613' status='passed' stop='1597324673173'>
+                                    <name>I wait for element {"android":"Blue","ios":"~Blue"}, 20</name>
+                                    <title>I wait for element {"android":"Blue","ios":"~Blue"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324673173' status='passed' stop='1597324673523'>
+                    <name>And I press "Add" </name>
+                    <title>And I press "Add" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324673173' status='passed' stop='1597324673523'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324673173' status='passed' stop='1597324673523'>
+                                    <name>I tap {"android":"Add","ios":"~Add"}</name>
+                                    <title>I tap {"android":"Add","ios":"~Add"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324673523' status='passed' stop='1597324673674'>
+                    <name>Then I see "Motivation, Fun &amp; more" </name>
+                    <title>Then I see "Motivation, Fun &amp; more" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324673523' status='passed' stop='1597324673674'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324673523' status='passed' stop='1597324673674'>
+                                    <name>I wait for element {"android":"Motivation, Fun &amp; more","ios":"~Motivation, Fun &amp; more"}, 20</name>
+                                    <title>I wait for element {"android":"Motivation, Fun &amp; more","ios":"~Motivation, Fun &amp; more"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324673674' status='passed' stop='1597324674108'>
+                    <name>And I press "options" </name>
+                    <title>And I press "options" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324673674' status='passed' stop='1597324674108'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324673674' status='passed' stop='1597324674108'>
+                                    <name>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</name>
+                                    <title>I tap {"android":"//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button","ios":"//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324674108' status='passed' stop='1597324674598'>
+                    <name>And I press "EN" </name>
+                    <title>And I press "EN" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324674108' status='passed' stop='1597324674598'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324674108' status='passed' stop='1597324674598'>
+                                    <name>I tap {"android":"EN","ios":"~EN"}</name>
+                                    <title>I tap {"android":"EN","ios":"~EN"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324674598' status='passed' stop='1597324675155'>
+                    <name>And I press "DE" </name>
+                    <title>And I press "DE" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324674598' status='passed' stop='1597324675155'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324674598' status='passed' stop='1597324675155'>
+                                    <name>I tap {"android":"DE","ios":"~DE"}</name>
+                                    <title>I tap {"android":"DE","ios":"~DE"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324675155' status='passed' stop='1597324675719'>
+                    <name>Then I see "Blau" </name>
+                    <title>Then I see "Blau" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324675155' status='passed' stop='1597324675719'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324675155' status='passed' stop='1597324675719'>
+                                    <name>I wait for element {"android":"Blau","ios":"~Blau"}, 20</name>
+                                    <title>I wait for element {"android":"Blau","ios":"~Blau"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324675719' status='passed' stop='1597324676045'>
+                    <name>And I press "Hinzufügen" </name>
+                    <title>And I press "Hinzufügen" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324675719' status='passed' stop='1597324676045'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324675719' status='passed' stop='1597324676045'>
+                                    <name>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</name>
+                                    <title>I tap {"android":"Hinzufügen","ios":"~Hinzufügen"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324676045' status='passed' stop='1597324676225'>
+                    <name>Then I see "Motivation, Spaß und mehr" </name>
+                    <title>Then I see "Motivation, Spaß und mehr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324676045' status='passed' stop='1597324676225'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324676045' status='passed' stop='1597324676225'>
+                                    <name>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</name>
+                                    <title>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

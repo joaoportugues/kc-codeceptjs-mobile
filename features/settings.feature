@@ -4,7 +4,8 @@ Feature: Settings on landing page
   I want to change themes and languages
   
   Background: open app correctly
-	Given I press "options"
+	Given I see "Kid-Coins"
+	And I press "options"
   
   @runThis
   Scenario: Settins Menu opens correctly and options are available

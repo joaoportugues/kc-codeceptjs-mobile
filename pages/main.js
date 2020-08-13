@@ -12,11 +12,26 @@ function sleep(milliseconds) {
 
 module.exports = {
   // insert your locators and methods here
-	seeText(text) {
-
-		switch (text.toLowerCase()) {
+	async seeText(text) {
+		 switch (text.toLowerCase()) {
 			case 'logo': 
 				I.waitForElement({android: landing.elementsAndroid.logo , ios: landing.elementsiOS.logo}, 20)
+				break
+			case 'kid-coins': 
+				/*try{
+					if(I.dontSeeElement("~Allow")){*/
+					//I.waitForElement({android: landing.elementsAndroid.logo , ios: landing.elementsiOS.logo}, 20)
+				
+					//I.runOnIOS(() => {I.tap("~Allow")})
+				
+						I.waitForElement({android: text , ios: '~' + text}, 20)
+
+					/*} else {
+						I.waitForElement({android: landing.elementsAndroid.logo , ios: landing.elementsiOS.logo}, 20)
+					}
+				}catch (e) {
+					console.log("we got here")
+				}*/
 				break
 			case 'allow app': 
 				I.waitForElement({android: landing.elementsAndroid.allowApp , ios: landing.elementsiOS.allowApp}, 20)

@@ -1,0 +1,919 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597324439385' stop='1597324550814'>
+    <name>Landing page</name>
+    <title>Landing page</title>
+    <test-cases>
+        <test-case start='1597324439386' status='passed' stop='1597324450616'>
+            <name>All login and registration options are available</name>
+            <title>All login and registration options are available</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324450177' status='passed' stop='1597324450259'>
+                    <name>Then I see "Motivation, Spaß und mehr" </name>
+                    <title>Then I see "Motivation, Spaß und mehr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324450177' status='passed' stop='1597324450259'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324450177' status='passed' stop='1597324450259'>
+                                    <name>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</name>
+                                    <title>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324450259' status='passed' stop='1597324450323'>
+                    <name>Then I see "Mit Apple anmelden" </name>
+                    <title>Then I see "Mit Apple anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324450259' status='passed' stop='1597324450323'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324450259' status='passed' stop='1597324450323'>
+                                    <name>I wait for element {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}, 20</name>
+                                    <title>I wait for element {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324450323' status='passed' stop='1597324450395'>
+                    <name>Then I see "Mit Google anmelden" </name>
+                    <title>Then I see "Mit Google anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324450323' status='passed' stop='1597324450395'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324450323' status='passed' stop='1597324450394'>
+                                    <name>I wait for element {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}, 20</name>
+                                    <title>I wait for element {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324450395' status='passed' stop='1597324450466'>
+                    <name>Then I see "Mit dem Handy anmelden" </name>
+                    <title>Then I see "Mit dem Handy anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324450395' status='passed' stop='1597324450466'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324450395' status='passed' stop='1597324450466'>
+                                    <name>I wait for element {"android":"Mit dem Handy anmelden","ios":"~Mit dem Handy anmelden"}, 20</name>
+                                    <title>I wait for element {"android":"Mit dem Handy anmelden","ios":"~Mit dem Handy anmelden"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324450466' status='passed' stop='1597324450547'>
+                    <name>Then I see "Registrieren" </name>
+                    <title>Then I see "Registrieren" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324450466' status='passed' stop='1597324450547'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324450466' status='passed' stop='1597324450546'>
+                                    <name>I wait for element {"android":"Registrieren","ios":"~Registrieren"}, 20</name>
+                                    <title>I wait for element {"android":"Registrieren","ios":"~Registrieren"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324450547' status='passed' stop='1597324450616'>
+                    <name>Then I see "Login" </name>
+                    <title>Then I see "Login" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324450547' status='passed' stop='1597324450616'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324450547' status='passed' stop='1597324450616'>
+                                    <name>I wait for element {"android":"Login","ios":"~Login"}, 20</name>
+                                    <title>I wait for element {"android":"Login","ios":"~Login"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324451663' status='passed' stop='1597324470668'>
+            <name>Login with Apple ID and cancel on apple id sign in @TKC-16 @androidOnly</name>
+            <title>Login with Apple ID and cancel on apple id sign in @TKC-16 @androidOnly</title>
+            <labels>
+                <label name='tag' value='@TKC-16'/>
+                <label name='tag' value='@androidOnly'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1597324465597' status='passed' stop='1597324465889'>
+                    <name>And I press "Mit Apple anmelden" </name>
+                    <title>And I press "Mit Apple anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324465597' status='passed' stop='1597324465889'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324465597' status='passed' stop='1597324465889'>
+                                    <name>I tap {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}</name>
+                                    <title>I tap {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324465889' status='passed' stop='1597324466613'>
+                    <name>Then I see "Sign In with your Apple ID" </name>
+                    <title>Then I see "Sign In with your Apple ID" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324465889' status='passed' stop='1597324466613'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324465889' status='passed' stop='1597324466613'>
+                                    <name>I wait for element {"android":"Sign In with your Apple ID","ios":"~Sign In with your Apple ID"}, 20</name>
+                                    <title>I wait for element {"android":"Sign In with your Apple ID","ios":"~Sign In with your Apple ID"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324466613' status='passed' stop='1597324467132'>
+                    <name>And I press "Settings" </name>
+                    <title>And I press "Settings" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324466613' status='passed' stop='1597324467132'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324466613' status='passed' stop='1597324467132'>
+                                    <name>I tap {"android":"Settings","ios":"~Settings"}</name>
+                                    <title>I tap {"android":"Settings","ios":"~Settings"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324467132' status='passed' stop='1597324468326'>
+                    <name>Then I see "Apple ID" </name>
+                    <title>Then I see "Apple ID" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324467132' status='passed' stop='1597324468326'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324467132' status='passed' stop='1597324468326'>
+                                    <name>I wait for element {"android":"Apple ID","ios":"~Apple ID"}, 20</name>
+                                    <title>I wait for element {"android":"Apple ID","ios":"~Apple ID"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324468326' status='passed' stop='1597324469132'>
+                    <name>And I press "Cancel" </name>
+                    <title>And I press "Cancel" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324468326' status='passed' stop='1597324469132'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324468326' status='passed' stop='1597324469132'>
+                                    <name>I tap {"android":"Cancel","ios":"~Cancel"}</name>
+                                    <title>I tap {"android":"Cancel","ios":"~Cancel"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324469132' status='passed' stop='1597324469321'>
+                    <name>And I press "back to App" </name>
+                    <title>And I press "back to App" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324469132' status='passed' stop='1597324469321'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324469132' status='passed' stop='1597324469321'>
+                                    <name>I touch perform [{"action":"press","options":{"x":5,"y":5}},{"action":"release"}]</name>
+                                    <title>I touch perform [{"action":"press","options":{"x":5,"y":5}},{"action":"release"}]</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324469321' status='passed' stop='1597324470100'>
+                    <name>Then I see "Apple-Authentifizierungsfehler" </name>
+                    <title>Then I see "Apple-Authentifizierungsfehler" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324469321' status='passed' stop='1597324470100'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324469322' status='passed' stop='1597324470100'>
+                                    <name>I wait for element {"android":"Apple-Authentifizierungsfehler","ios":"~Apple-Authentifizierungsfehler"}, 20</name>
+                                    <title>I wait for element {"android":"Apple-Authentifizierungsfehler","ios":"~Apple-Authentifizierungsfehler"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324470100' status='passed' stop='1597324470504'>
+                    <name>And I press "Ok" </name>
+                    <title>And I press "Ok" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324470100' status='passed' stop='1597324470504'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324470100' status='passed' stop='1597324470504'>
+                                    <name>I tap {"android":"Ok","ios":"~Ok"}</name>
+                                    <title>I tap {"android":"Ok","ios":"~Ok"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324470504' status='passed' stop='1597324470668'>
+                    <name>Then I see "Motivation, Spaß und mehr" </name>
+                    <title>Then I see "Motivation, Spaß und mehr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324470504' status='passed' stop='1597324470668'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324470504' status='passed' stop='1597324470668'>
+                                    <name>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</name>
+                                    <title>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324471714' status='passed' stop='1597324485068'>
+            <name>Login with Apple ID and cancel immediately @TKC-16 @androidOnly</name>
+            <title>Login with Apple ID and cancel immediately @TKC-16 @androidOnly</title>
+            <labels>
+                <label name='tag' value='@TKC-16'/>
+                <label name='tag' value='@androidOnly'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1597324482268' status='passed' stop='1597324482633'>
+                    <name>And I press "Mit Apple anmelden" </name>
+                    <title>And I press "Mit Apple anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324482268' status='passed' stop='1597324482633'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324482268' status='passed' stop='1597324482633'>
+                                    <name>I tap {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}</name>
+                                    <title>I tap {"android":"Mit Apple anmelden","ios":"~Mit Apple anmelden"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324482633' status='passed' stop='1597324483344'>
+                    <name>Then I see "Sign In with your Apple ID" </name>
+                    <title>Then I see "Sign In with your Apple ID" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324482633' status='passed' stop='1597324483344'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324482633' status='passed' stop='1597324483344'>
+                                    <name>I wait for element {"android":"Sign In with your Apple ID","ios":"~Sign In with your Apple ID"}, 20</name>
+                                    <title>I wait for element {"android":"Sign In with your Apple ID","ios":"~Sign In with your Apple ID"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324483344' status='passed' stop='1597324483864'>
+                    <name>And I press "Close" </name>
+                    <title>And I press "Close" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324483344' status='passed' stop='1597324483864'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324483344' status='passed' stop='1597324483864'>
+                                    <name>I tap {"android":"Close","ios":"~Close"}</name>
+                                    <title>I tap {"android":"Close","ios":"~Close"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324483864' status='passed' stop='1597324484553'>
+                    <name>Then I see "Apple-Authentifizierungsfehler" </name>
+                    <title>Then I see "Apple-Authentifizierungsfehler" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324483864' status='passed' stop='1597324484553'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324483864' status='passed' stop='1597324484553'>
+                                    <name>I wait for element {"android":"Apple-Authentifizierungsfehler","ios":"~Apple-Authentifizierungsfehler"}, 20</name>
+                                    <title>I wait for element {"android":"Apple-Authentifizierungsfehler","ios":"~Apple-Authentifizierungsfehler"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324484553' status='passed' stop='1597324484903'>
+                    <name>And I press "Ok" </name>
+                    <title>And I press "Ok" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324484553' status='passed' stop='1597324484903'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324484553' status='passed' stop='1597324484903'>
+                                    <name>I tap {"android":"Ok","ios":"~Ok"}</name>
+                                    <title>I tap {"android":"Ok","ios":"~Ok"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324484903' status='passed' stop='1597324485068'>
+                    <name>Then I see "Motivation, Spaß und mehr" </name>
+                    <title>Then I see "Motivation, Spaß und mehr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324484903' status='passed' stop='1597324485068'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324484903' status='passed' stop='1597324485068'>
+                                    <name>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</name>
+                                    <title>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324486157' status='passed' stop='1597324499286'>
+            <name>Login with Google and cancel</name>
+            <title>Login with Google and cancel</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324496641' status='passed' stop='1597324496914'>
+                    <name>And I press "Mit Google anmelden" </name>
+                    <title>And I press "Mit Google anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324496641' status='passed' stop='1597324496914'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324496641' status='passed' stop='1597324496914'>
+                                    <name>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</name>
+                                    <title>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324496914' status='passed' stop='1597324497585'>
+                    <name>Then I see "This allows the app and website to share information about you." </name>
+                    <title>Then I see "This allows the app and website to share information about you." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324496914' status='passed' stop='1597324497585'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324496914' status='passed' stop='1597324497585'>
+                                    <name>I wait for element {"android":"This allows the app and website to share information about you.","ios":"~This allows the app and website to share information about you."}, 20</name>
+                                    <title>I wait for element {"android":"This allows the app and website to share information about you.","ios":"~This allows the app and website to share information about you."}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324497585' status='passed' stop='1597324498135'>
+                    <name>And I press "Cancel" </name>
+                    <title>And I press "Cancel" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324497585' status='passed' stop='1597324498135'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324497585' status='passed' stop='1597324498135'>
+                                    <name>I tap {"android":"Cancel","ios":"~Cancel"}</name>
+                                    <title>I tap {"android":"Cancel","ios":"~Cancel"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324498135' status='passed' stop='1597324498832'>
+                    <name>Then I see "Google-Anmeldung vom Nutzer abgebrochen" </name>
+                    <title>Then I see "Google-Anmeldung vom Nutzer abgebrochen" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324498135' status='passed' stop='1597324498832'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324498135' status='passed' stop='1597324498831'>
+                                    <name>I wait for element {"android":"Google-Anmeldung vom Nutzer abgebrochen","ios":"~Google-Anmeldung vom Nutzer abgebrochen"}, 20</name>
+                                    <title>I wait for element {"android":"Google-Anmeldung vom Nutzer abgebrochen","ios":"~Google-Anmeldung vom Nutzer abgebrochen"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324498832' status='passed' stop='1597324499063'>
+                    <name>And I press "Ok" </name>
+                    <title>And I press "Ok" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324498832' status='passed' stop='1597324499063'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324498832' status='passed' stop='1597324499063'>
+                                    <name>I tap {"android":"Ok","ios":"~Ok"}</name>
+                                    <title>I tap {"android":"Ok","ios":"~Ok"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324499063' status='passed' stop='1597324499286'>
+                    <name>Then I see "Motivation, Spaß und mehr" </name>
+                    <title>Then I see "Motivation, Spaß und mehr" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324499063' status='passed' stop='1597324499286'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324499063' status='passed' stop='1597324499286'>
+                                    <name>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</name>
+                                    <title>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324500321' status='passed' stop='1597324523531'>
+            <name>Login with Google and continue</name>
+            <title>Login with Google and continue</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1597324510597' status='passed' stop='1597324510885'>
+                    <name>And I press "Mit Google anmelden" </name>
+                    <title>And I press "Mit Google anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324510597' status='passed' stop='1597324510885'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324510597' status='passed' stop='1597324510885'>
+                                    <name>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</name>
+                                    <title>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324510885' status='passed' stop='1597324511535'>
+                    <name>Then I see "This allows the app and website to share information about you." </name>
+                    <title>Then I see "This allows the app and website to share information about you." </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324510885' status='passed' stop='1597324511535'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324510885' status='passed' stop='1597324511534'>
+                                    <name>I wait for element {"android":"This allows the app and website to share information about you.","ios":"~This allows the app and website to share information about you."}, 20</name>
+                                    <title>I wait for element {"android":"This allows the app and website to share information about you.","ios":"~This allows the app and website to share information about you."}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324511535' status='undefined'>
+                    <name>And I press "Continue" </name>
+                    <title>And I press "Continue" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324511535' status='passed' stop='1597324511535'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324511535' status='passed' stop='1597324511535'>
+                                    <name>I run on i o s () => {
+                                    					I.runOnIOS(() => {I.tap({android: name , ios:'~' +name});}
+                                    					);
+                                    				}</name>
+                                    <title>I run on i o s () => {
+                                    					I.runOnIOS(() => {I.tap({android: name , ios:'~' +name});}
+                                    					);
+                                    				}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1597324511535' status='undefined'>
+                            <name>Appium: _runWithCaps </name>
+                            <title>Appium: _runWithCaps </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324511535' status='passed' stop='1597324512051'>
+                                    <name>I run on i o s () => {I.tap({android: name , ios:'~' +name});}</name>
+                                    <title>I run on i o s () => {I.tap({android: name , ios:'~' +name});}</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1597324511535' status='passed' stop='1597324512051'>
+                                            <name>I tap {"android":"Continue","ios":"~Continue"}</name>
+                                            <title>I tap {"android":"Continue","ios":"~Continue"}</title>
+                                            <attachments/>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                                <step start='1597324512051' status='passed' stop='1597324520394'>
+                                    <name>Then I see "Anmeldung" </name>
+                                    <title>Then I see "Anmeldung" </title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1597324512051' status='passed' stop='1597324520394'>
+                                            <name>Object: seeText </name>
+                                            <title>Object: seeText </title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1597324512051' status='passed' stop='1597324520394'>
+                                                    <name>I wait for element {"android":"Anmeldung","ios":"~Anmeldung"}, 20</name>
+                                                    <title>I wait for element {"android":"Anmeldung","ios":"~Anmeldung"}, 20</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                                <step start='1597324520394' status='passed' stop='1597324522441'>
+                                    <name>And I press "Cancel" </name>
+                                    <title>And I press "Cancel" </title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1597324520394' status='passed' stop='1597324522441'>
+                                            <name>Object: clickOption </name>
+                                            <title>Object: clickOption </title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1597324520394' status='passed' stop='1597324522441'>
+                                                    <name>I tap {"android":"Cancel","ios":"~Cancel"}</name>
+                                                    <title>I tap {"android":"Cancel","ios":"~Cancel"}</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                                <step start='1597324522441' status='passed' stop='1597324522998'>
+                                    <name>Then I see "Google-Anmeldung vom Nutzer abgebrochen" </name>
+                                    <title>Then I see "Google-Anmeldung vom Nutzer abgebrochen" </title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1597324522441' status='passed' stop='1597324522998'>
+                                            <name>Object: seeText </name>
+                                            <title>Object: seeText </title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1597324522441' status='passed' stop='1597324522998'>
+                                                    <name>I wait for element {"android":"Google-Anmeldung vom Nutzer abgebrochen","ios":"~Google-Anmeldung vom Nutzer abgebrochen"}, 20</name>
+                                                    <title>I wait for element {"android":"Google-Anmeldung vom Nutzer abgebrochen","ios":"~Google-Anmeldung vom Nutzer abgebrochen"}, 20</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                                <step start='1597324522998' status='passed' stop='1597324523353'>
+                                    <name>And I press "Ok" </name>
+                                    <title>And I press "Ok" </title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1597324522998' status='passed' stop='1597324523353'>
+                                            <name>Object: clickOption </name>
+                                            <title>Object: clickOption </title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1597324522998' status='passed' stop='1597324523353'>
+                                                    <name>I tap {"android":"Ok","ios":"~Ok"}</name>
+                                                    <title>I tap {"android":"Ok","ios":"~Ok"}</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                                <step start='1597324523353' status='passed' stop='1597324523531'>
+                                    <name>Then I see "Motivation, Spaß und mehr" </name>
+                                    <title>Then I see "Motivation, Spaß und mehr" </title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1597324523353' status='passed' stop='1597324523531'>
+                                            <name>Object: seeText </name>
+                                            <title>Object: seeText </title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1597324523353' status='passed' stop='1597324523531'>
+                                                    <name>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</name>
+                                                    <title>I wait for element {"android":"Motivation, Spaß und mehr","ios":"~Motivation, Spaß und mehr"}, 20</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1597324524586' status='passed' stop='1597324549775'>
+            <name>Login with Google and finish process @TKC-17</name>
+            <title>Login with Google and finish process @TKC-17</title>
+            <labels>
+                <label name='tag' value='@TKC-17'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1597324531141' status='passed' stop='1597324531497'>
+                    <name>And I press "Mit Google anmelden" </name>
+                    <title>And I press "Mit Google anmelden" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324531141' status='passed' stop='1597324531497'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324531141' status='passed' stop='1597324531496'>
+                                    <name>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</name>
+                                    <title>I tap {"android":"Mit Google anmelden","ios":"~Mit Google anmelden"}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324531497' status='passed' stop='1597324532175'>
+                    <name>Then I see "Allow app" </name>
+                    <title>Then I see "Allow app" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324531497' status='passed' stop='1597324532175'>
+                            <name>Object: seeText </name>
+                            <title>Object: seeText </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324531497' status='passed' stop='1597324532175'>
+                                    <name>I wait for element {"android":"Sign in","ios":"~This allows the app and website to share information about you."}, 20</name>
+                                    <title>I wait for element {"android":"Sign in","ios":"~This allows the app and website to share information about you."}, 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1597324532175' status='undefined'>
+                    <name>And I press "Continue" </name>
+                    <title>And I press "Continue" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597324532175' status='passed' stop='1597324532175'>
+                            <name>Object: clickOption </name>
+                            <title>Object: clickOption </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324532175' status='passed' stop='1597324532175'>
+                                    <name>I run on i o s () => {
+                                    					I.runOnIOS(() => {I.tap({android: name , ios:'~' +name});}
+                                    					);
+                                    				}</name>
+                                    <title>I run on i o s () => {
+                                    					I.runOnIOS(() => {I.tap({android: name , ios:'~' +name});}
+                                    					);
+                                    				}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1597324532175' status='undefined'>
+                            <name>Appium: _runWithCaps </name>
+                            <title>Appium: _runWithCaps </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1597324532175' status='passed' stop='1597324532715'>
+                                    <name>I run on i o s () => {I.tap({android: name , ios:'~' +name});}</name>
+                                    <title>I run on i o s () => {I.tap({android: name , ios:'~' +name});}</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1597324532175' status='passed' stop='1597324532714'>
+                                            <name>I tap {"android":"Continue","ios":"~Continue"}</name>
+                                            <title>I tap {"android":"Continue","ios":"~Continue"}</title>
+                                            <attachments/>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                                <step start='1597324532715' status='passed' stop='1597324549775'>
+                                    <name>Then I type "jtime002@gmail.com" in "email" </name>
+                                    <title>Then I type "jtime002@gmail.com" in "email" </title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1597324532715' status='passed' stop='1597324549775'>
+                                            <name>Object: type </name>
+                                            <title>Object: type </title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1597324532715' status='passed' stop='1597324542614'>
+                                                    <name>I wait for element "~E-Mail oder Telefonnummer", 20</name>
+                                                    <title>I wait for element "~E-Mail oder Telefonnummer", 20</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1597324542614' status='passed' stop='1597324544402'>
+                                                    <name>I tap "~E-Mail oder Telefonnummer"</name>
+                                                    <title>I tap "~E-Mail oder Telefonnummer"</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1597324544402' status='passed' stop='1597324547342'>
+                                                    <name>I fill field "~E-Mail oder Telefonnummer", "jtime002@gmail.com"</name>
+                                                    <title>I fill field "~E-Mail oder Telefonnummer", "jtime002@gmail.com"</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                                <step start='1597324547342' status='passed' stop='1597324549775'>
+                                                    <name>I see in field "~E-Mail oder Telefonnummer", "jtime002@gmail.com"</name>
+                                                    <title>I see in field "~E-Mail oder Telefonnummer", "jtime002@gmail.com"</title>
+                                                    <attachments/>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

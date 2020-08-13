@@ -4,11 +4,13 @@ module.exports = {
   // insert your locators and methods here
 	elementsiOS: {
 		settings: '//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther'+
-		'/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton',
+		'/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton',
+		
 		label: '~Kid-Coins',
 		motto: '~Motivation, Spaß und mehr',
-		logo: '//XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther'+
-		'/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeImage[1]',
+		logo: '//XCUIElementTypeApplication[@name="KC dev"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther' +
+		'/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeImage[1]',
+	
 		signInApple: '~Mit Apple anmelden',
 		signInGoogle:'~Mit Google anmelden',
 		signInPhone: '~Mit dem Handy anmelden',
