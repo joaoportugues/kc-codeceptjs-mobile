@@ -129,6 +129,19 @@
 						"appActivity": "de.kidcoins.kidcoins.MainActivity"
       				}
 				}
+			},
+			"real": {
+				"appium": {
+					"platform": "Android",
+      				"capabilities": {
+        				"platformName":"Android",
+        				"deviceName": "Samsung Galaxy S7 edge",
+        				"platformVersion": "8.0.0",
+        				"automationName": "Appium",
+						"appPackage": "de.kidcoins.development",
+						"appActivity": "de.kidcoins.kidcoins.MainActivity"
+      				}
+				}
 			}
 		},
 		"browserStack": {

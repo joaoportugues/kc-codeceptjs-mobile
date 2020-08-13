@@ -11,14 +11,14 @@ var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 //json configs in properties file
 
 //var deviceConfig = "properties.iosConfigs.local.emulator.appium"
-var deviceConfig = "properties.androidConfigs.local.emulator.appium"
+var deviceConfig = "properties.androidConfigs.sauceLabs.S9Real.appium"
 
 var env = deviceConfig.split (".")
 
 //var deviceConfig = properties.iosConfigs.local.emulator.appium
-var deviceConfig = properties.androidConfigs.local.emulator.appium
+var deviceConfig = properties.androidConfigs.sauceLabs.S9Real.appium
 
-reportsDirectory = './'+ directory + '/' + date + "-" + env[2] + "-" + env[3] + "-" + deviceConfig.capabilities.deviceName
+reportsDirectory = './'+ directory + '/' + date + "/" + env[2] + "-" + env[3] + "-" + deviceConfig.capabilities.deviceName
 
 if (!fs.existsSync(reportsDirectory)) {
     fs.mkdirSync(reportsDirectory);

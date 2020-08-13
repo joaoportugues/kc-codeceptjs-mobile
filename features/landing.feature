@@ -5,8 +5,8 @@ Feature: Landing page
   
   Background: open app correctly
     And I see "Kid-Coins"
-    And I see "logo"
 
+  @runThis
   Scenario: All login and registration options are available
     Then I see "Motivation, Spaß und mehr"
     Then I see "Mit Apple anmelden"

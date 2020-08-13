@@ -21,8 +21,8 @@ module.exports = {
 	},
 	
 	elementsAndroid: {
-		settings: '//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout'+
-		'/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button',
+		settings: 'Settings Menu',
+		
 		label: 'Kid-Coins',
 		motto: 'Motivation, Spaß und mehr',
 		logo: '//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout'+

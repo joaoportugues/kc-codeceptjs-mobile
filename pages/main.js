@@ -24,7 +24,7 @@ module.exports = {
 				
 					//I.runOnIOS(() => {I.tap("~Allow")})
 				
-						I.waitForElement({android: text , ios: '~' + text}, 20)
+						I.waitForElement({android: '//*[@content-desc="'+ text + '"]' , ios: '~' + text}, 20)
 
 					/*} else {
 						I.waitForElement({android: landing.elementsAndroid.logo , ios: landing.elementsiOS.logo}, 20)
@@ -37,7 +37,8 @@ module.exports = {
 				I.waitForElement({android: landing.elementsAndroid.allowApp , ios: landing.elementsiOS.allowApp}, 20)
 				break
 			default:
-    			I.waitForElement({android: text, ios: '~' +text}, 20);
+			    //I.waitForElement({android: text, ios: '~' +text}, 20);
+    			I.waitForElement({android: '//*[@content-desc="'+ text + '"]' , ios: '~' +text}, 20);
 				break
 		}
     },
@@ -45,7 +46,7 @@ module.exports = {
 	clickOption(name) {
 		switch (name.toLowerCase()) {
 			case 'options': 
-				I.tap({android: landing.elementsAndroid.settings , ios: landing.elementsiOS.settings})
+				I.tap({android: '//*[@content-desc="'+ landing.elementsAndroid.settings + '"]' , ios: landing.elementsiOS.settings})
 				break
 			case 'continue': 
 				I.runOnIOS(() => {
@@ -64,7 +65,7 @@ module.exports = {
 				
 				break
 			default:
-				I.tap({android: name , ios:'~' +name});
+				I.tap({android: '//*[@content-desc="'+ name + '"]' , ios:'~' +name});
 				break
 		}
     },
@@ -97,7 +98,7 @@ module.exports = {
 				}
 				break
 			default:
-				I.tap({android: name , ios:'~' +name});
+				I.tap({android: '//*[@content-desc="'+ name + '"]' , ios:'~' +name});
 				break
 		}
     },
